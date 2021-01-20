@@ -65,20 +65,7 @@ namespace ChatService
             } 
         }
 
-       /* private async Task<KeyValuePair<string, IServerStreamWriter<Message>>?> SendMessageToSubscriber(
-            KeyValuePair<string, IServerStreamWriter<Message>> pair, Message message)
-        {
-            try
-            {
-                await pair.Value.WriteAsync(message);
-                return null;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex.Message);
-                return pair;
-            }
-        }*/
+       
     }
 
 }
